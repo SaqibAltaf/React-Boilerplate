@@ -72,4 +72,4 @@ This project is under the MIT license. See the [LICENSE](https://github.com/melq
 
 ---
 
-:wave: [Get in touch!](https://www.linkedin.com/in/melquisedecfelipe/)
+:wave: [Get in touch!](https://www.linkedin.com/in/saqib-altaf/)
