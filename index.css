@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Pano';
+    src: url('fonts/Pano-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Palanquin';
+    src: url('fonts/Palanquin-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

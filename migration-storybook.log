@@ -1,0 +1,36 @@
+🔎 checking possible migrations..
+No builder or framework field, detected Storybook builder via: C:\Users\malik\OneDrive\Desktop\Work\QL\Tramos\react-vite\vite.config.ts
+
+⚠️  failed to check fix new-frameworks
+
+Error: ❌ Your project should be upgraded to use the framework package @storybook/react-vite, but we detected that you are using Vite 2.9.16, which is unsupported in Storybook 7.0. Please upgrade Vite to 3.0.0 or higher and rerun this migration.
+    at Object.check (C:\Users\malik\AppData\Local\npm-cache\_npx\eb8bf615e50a412a\node_modules\@storybook\cli\dist\generate.js:221:8731)
+    at async runFixes (C:\Users\malik\AppData\Local\npm-cache\_npx\eb8bf615e50a412a\node_modules\@storybook\cli\dist\generate.js:409:1239)
+    at async automigrate (C:\Users\malik\AppData\Local\npm-cache\_npx\eb8bf615e50a412a\node_modules\@storybook\cli\dist\generate.js:406:676)
+    at async Command.<anonymous> (C:\Users\malik\AppData\Local\npm-cache\_npx\eb8bf615e50a412a\node_modules\@storybook\cli\dist\generate.js:489:2918)
+
+╭ Migration check ran with failures ───────────────────────────────────────────────────────────────────────────╮
+│                                                                                                              │
+│   Failed migrations:                                                                                         │
+│                                                                                                              │
+│   new-frameworks:                                                                                            │
+│   ❌ Your project should be upgraded to use the framework package @storybook/react-vite, but we detected     │
+│   that you are using Vite 2.9.16, which is unsupported in Storybook 7.0. Please upgrade Vite to 3.0.0 or     │
+│   higher and rerun this migration.                                                                           │
+│                                                                                                              │
+│   You can find the full logs in                                                                              │
+│   C:\Users\malik\OneDrive\Desktop\Work\QL\Tramos\react-vite\migration-storybook.log                          │
+│                                                                                                              │
+│   ─────────────────────────────────────────────────                                                          │
+│                                                                                                              │
+│   If you'd like to run the migrations again, you can do so by running 'npx storybook@next automigrate'       │
+│                                                                                                              │
+│   The automigrations try to migrate common patterns in your project, but might not contain everything        │
+│   needed to migrate to the latest version of Storybook.                                                      │
+│                                                                                                              │
+│   Please check the changelog and migration guide for manual migrations and more information:                 │
+│   https://storybook.js.org/migration-guides/7.0                                                              │
+│   And reach out on Discord if you need help: https://discord.gg/storybook                                    │
+│                                                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
